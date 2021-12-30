@@ -1,5 +1,5 @@
 let clientID = 'e8a4e5eab75345febab08c3991c5ebdf';
-let redirectUri = 'http://localhost:3000/';
+let redirectUri = 'http://jamming_react.surge.sh/';
 
 let accessToken;
 let userID;
