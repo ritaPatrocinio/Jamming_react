@@ -1,3 +1,20 @@
 .playlistListItem {
     width: 100%;
   }
+
+  .playlistListItem-information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 6%;
+  }
+  
+  .playlistListItem-information h3 {
+    margin-bottom: .22rem;
+  }
+  
+  .playlistListItem-information p {
+    font-size: .83rem;
+    font-weight: 300;
+    color: rgba(256, 256, 256, 0.8);
+  }

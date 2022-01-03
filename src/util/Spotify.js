@@ -1,5 +1,5 @@
 let clientID = 'e8a4e5eab75345febab08c3991c5ebdf';
-let redirectUri = 'http://jamming_react.surge.sh/';
+let redirectUri = 'https://infamous-border.surge.sh/';
 
 let accessToken;
 let userID;

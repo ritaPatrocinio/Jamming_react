@@ -1,13 +1,12 @@
 import React from "react";
 import './playlistListItem.css'
 
-export class playlistListItem extends React.Component {
+export class PlaylistListItem extends React.Component {
     render(){
         return (
-            <div className="playlistListItem">
+            <div className="playlistListItem playlistListItem-information">
                 
-                {this.props.playlists.map(playlist => { return playlist.name }
-                )}
+                 <h3> {this.props.playLIst} </h3> 
                 
             </div>
         )
