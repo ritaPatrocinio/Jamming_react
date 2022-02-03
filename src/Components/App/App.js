@@ -24,10 +24,19 @@ class App extends React.Component {
       this.search = this.search.bind(this);
       }
 
+      componentDidMount() {
+        window.addEventListener('load', () => {Spotify.getAccessToken()});
+      }
+     
+
   search(term){
     Spotify.search(term)
-    .then(searchResults => {this.setState({searchResults: searchResults })})
-    
+    .then(searchResults => {
+      if(searchResults.length > 0){
+      this.setState({searchResults: searchResults });
+    } 
+    console.log('searchResults:', searchResults);
+  })
   }
 
   savePlaylist(){
