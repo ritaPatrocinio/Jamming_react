@@ -1,5 +1,4 @@
-Live version: https://infamous-border.surge.sh/
-
+[Live version here](https://infamous-border.surge.sh/)
 
 
 
